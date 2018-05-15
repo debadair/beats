@@ -18,12 +18,12 @@ itself, you need to grant authorized users permission to access the indices it
 creates. See <<beats-user-access>>.
 
 ifeval::["{beatname_lc}"!="apm-server"]
-If you plan to monitor {beatname_uc} in Kibana, you must also 
+If you plan to monitor {beatname_uc} in Kibana, you must also
 <<beats-system-user,configure the `beats_system` built-in user>>.
 endif::[]
 
 For more information about {security}, see
-{xpack-ref}/xpack-security.html[Securing {es} and {kib}].
+{xpack-ref}/elasticsearch-security.html[Securing the {stack}].
 
 include::basic-auth.asciidoc[]
 include::user-access.asciidoc[]
